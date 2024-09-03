@@ -1,5 +1,9 @@
 body {
-  background: #f9f7fe;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/141/945/original/pexels-nicolas-jaramillo-525710-1272541.jpg?1725330296");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #37506f;
 }
 h1 {
   text-align: center;
@@ -16,11 +20,22 @@ select {
   padding: 10px;
   border-radius: 4px;
   font-size: 18px;
+  background: #b7bbc4;
+  color: white;
+}
+a {
+  color: blue;
+}
+.credits {
+  color: white;
+}
+a:hover {
+  color: red;
 }
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background-color: white;
+  background-color: lightgray;
   padding: 30px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   border-radius: 10px;
